@@ -1,0 +1,19 @@
+node_modules/
+.next/
+.output/
+.vercel/
+*.tsbuildinfo
+next-env.d.ts
+
+# env
+.env
+.env.*
+!.env.example
+
+.DS_Store
+
+# eve build/runtime artifacts
+.eve/
+*.log
+.workflow-data/
+.vercel/

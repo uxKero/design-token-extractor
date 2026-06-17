@@ -1,0 +1,18 @@
+{
+  "slug": "design-token-extractor",
+  "title": "Design Token Extractor",
+  "tagline": "Turns any website into a design-token report (colors, type, radius, spacing).",
+  "description": "Point it at any public website and it reads the page's CSS — linked stylesheets and inline <style> blocks — extracts every `--custom-property`, and groups them into a semantic design-token report: color, typography, spacing, radius, shadow, and more. Useful for reverse-engineering a design system, auditing your own tokens, or seeding a DTCG token file. No API keys: the tool only does plain HTTP fetches.",
+  "category": "design",
+  "categoryLabel": "Design",
+  "channels": ["http", "web"],
+  "stack": ["ai-sdk", "ai-gateway"],
+  "eveFeatures": ["tools", "skills"],
+  "tags": ["design-systems", "css", "tokens", "dtcg"],
+  "model": "anthropic/claude-sonnet-4.6",
+  "difficulty": "intermediate",
+  "path": "templates/design-token-extractor",
+  "featured": true,
+  "test": "npx eve dev, then ask: \"Extract the design tokens from https://vercel.com\"",
+  "requires": ["AI Gateway access (Vercel) or an Anthropic API key"]
+}
