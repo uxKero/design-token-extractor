@@ -17,3 +17,5 @@ next-env.d.ts
 *.log
 .workflow-data/
 .vercel/
+
+.vercel

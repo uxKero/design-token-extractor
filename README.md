@@ -10,6 +10,8 @@
 [![Built on Eve](https://img.shields.io/badge/Built%20on%20Eve-000000?style=for-the-badge)](https://eve.dev)
 [![License MIT](https://img.shields.io/badge/License-MIT-3b3b3b?style=for-the-badge)](./LICENSE)
 
+**▶ [Live demo](https://design-token-extractor.vercel.app)** · a visual preview (deploy your own, add a key, and it answers)
+
 </div>
 
 ---
